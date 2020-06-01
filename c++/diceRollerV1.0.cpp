@@ -25,7 +25,7 @@ int main()
 {
   int numSides = 0;
   int outcome = 0;
-  cout << "Please enter a number of sides on the dice: "
+  cout << "Please enter a number of sides on the dice: ";
   cin >> numSides;
   cout << endl;
   outcome = diceRoll(numSides);
