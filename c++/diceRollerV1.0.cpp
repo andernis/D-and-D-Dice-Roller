@@ -16,7 +16,7 @@ roll variable as an int.
 int diceRoll(int numSides)
 {
   int roll = 0;
-  srand((unsighned int)(time(NULL)));
+  srand((unsigned int)(time(NULL)));
   roll = rand() % numSides + 1;
   return roll;
 }
